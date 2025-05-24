@@ -18,7 +18,6 @@ val moviesDF = movies.toDF("actor", "title", "year").show
 
 5. За что отвечает следующий фрагмент кода?
 
-scala
 my_text_RDD = sc.textFile('file.csv')
 Ответ: Создание RDD посредством чтения данных из csv-файла.
 
